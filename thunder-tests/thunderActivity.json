@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "1a8c4f97-eb87-48cb-835b-d8b56be876b1",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/auth/register",
+    "url": "http://localhost:8080/auth/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-05-08T12:41:16.577Z",
+    "modified": "2023-05-08T13:25:54.997Z",
+    "headers": [
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NThlZWQwMzEyYTk2MjM5ODZhYTNkZiIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODM1NTAxMjIsImV4cCI6MTY4MzgwOTMyMn0.7_x5IAvQNf4DKNBFJnJKMyP1gfzOXFhZkqUBAzAezCo"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": " {\r\n   \"username\": \"vishal\",\r\n   \"email\": \"abc@gmail.com\",\r\n   \"password\": \"123456\"\r\n }\r\n    ",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e5142683-e84c-4969-9808-3fb212345bf6",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/auth/login",
+    "url": "http://localhost:8080/auth/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-05-08T12:48:42.562Z",
+    "modified": "2023-05-08T13:26:53.236Z",
+    "headers": [
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NThmODYyMjA5MzlkZTgwOTdkM2VlYyIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MzU1MjM5NywiZXhwIjoxNjgzODExNTk3fQ.ifoqJ0vbSHrer6STBhJfqvueyYBIQxLEhj1AmqL43mc"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": " {\r\n   \r\n   \"email\": \"abc@gmail.com\",\r\n   \"password\": \"123456\"\r\n }\r\n    ",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "930203b1-d152-440d-87a0-523b4759b3eb",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/products/",
+    "url": "http://localhost:8080/products/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-05-08T13:04:54.079Z",
+    "modified": "2023-05-08T13:19:15.807Z",
+    "headers": [
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NThlZWQwMzEyYTk2MjM5ODZhYTNkZiIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODM1NTAxMjIsImV4cCI6MTY4MzgwOTMyMn0.7_x5IAvQNf4DKNBFJnJKMyP1gfzOXFhZkqUBAzAezCo"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": " {\r\n    \"brand\": \"Puma\",\r\n    \"name\": \"T-Shirts\",\r\n    \"price\": 2500,\r\n    \"product_link\": \"https://cdn01.nnnow.com/web-images/medium/styles/12J9IB1PWO2/1671609053278/1.jpg\",\r\n    \"description\": \"Perfumes and Deodrants\",\r\n    \"product_type\": \"Perfumes\",\r\n    \"category\": \"Perfumes and Deodrants\"\r\n   \r\n }\r\n    ",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b9752eb7-05c5-4587-8a40-8aa90fed5a49",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/users/register",
+    "url": "http://localhost:8080/users/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-05-08T13:21:58.620Z",
+    "modified": "2023-05-08T13:21:58.620Z",
+    "headers": [
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NThlZWQwMzEyYTk2MjM5ODZhYTNkZiIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODM1NTAxMjIsImV4cCI6MTY4MzgwOTMyMn0.7_x5IAvQNf4DKNBFJnJKMyP1gfzOXFhZkqUBAzAezCo"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": " {\r\n   \"username\": \"vishal\",\r\n   \"email\": \"abc@123\",\r\n   \"password\": \"123456\", \r\n   \"isAdmin\": true\r\n }\r\n    ",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5feb6d60-dcb0-4829-8e42-d006deea6c74",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/products",
+    "url": "http://localhost:8080/products",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-05-08T13:27:35.547Z",
+    "modified": "2023-05-08T13:27:35.547Z",
+    "headers": [
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NThmODYyMjA5MzlkZTgwOTdkM2VlYyIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MzU1MjM5NywiZXhwIjoxNjgzODExNTk3fQ.ifoqJ0vbSHrer6STBhJfqvueyYBIQxLEhj1AmqL43mc"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": " {\r\n    \"brand\": \"Puma\",\r\n    \"name\": \"T-Shirts\",\r\n    \"price\": 2500,\r\n    \"product_link\": \"https://cdn01.nnnow.com/web-images/medium/styles/12J9IB1PWO2/1671609053278/1.jpg\",\r\n    \"description\": \"Perfumes and Deodrants\",\r\n    \"product_type\": \"Perfumes\",\r\n    \"category\": \"Perfumes and Deodrants\"\r\n   \r\n } ",
+      "form": []
+    },
+    "tests": []
+  }
+]
